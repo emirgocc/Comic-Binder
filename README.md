@@ -44,14 +44,14 @@ If you're a digital comic collector, you've probably found yourself juggling sca
 
 ### Option 1: Using the Executable (Windows)
 
-1. Download the latest `ComicBinder.exe` from the [Releases](https://github.com/yourusername/comic-binder/releases) page
+1. Download the latest `ComicBinder.exe` from the [Releases](https://github.com/emirgocc/Comic-Binder/releases/) page
 2. Run the executable directly - no installation required
 
 ### Option 2: Building from Source
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/comic-binder.git
+git clone https://github.com/emirgocc/comic-binder.git
 cd comic-binder
 ```
 

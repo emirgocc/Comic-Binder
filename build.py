@@ -5,8 +5,8 @@ import sys
 # Get the current directory
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
-# Define the icon path
-icon_path = os.path.join(current_dir, 'icon.ico')
+# Define the icon path with full Windows path
+icon_path = os.path.abspath(os.path.join(current_dir, 'icon.ico'))
 
 # Define PyInstaller arguments
 args = [
@@ -17,6 +17,7 @@ args = [
     '--clean',  # Clean PyInstaller cache
     '--add-data=README.md;.',  # Include README
     '--add-data=LICENSE;.',  # Include LICENSE
+    f'--icon={icon_path}',  # Add icon with full path, no quotes
     '--noconfirm',  # Replace existing build
 ]
 

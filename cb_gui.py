@@ -7,6 +7,7 @@ from cb import merge_comics
 class ComicMergerApp:
     def __init__(self, master):
         self.master = master
+        self.master.iconbitmap('icon.ico')
         master.title("Çizgi Roman Birleştirici")
         master.geometry("850x420")
         master.configure(bg='#f0f0f0')

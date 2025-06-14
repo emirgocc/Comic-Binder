@@ -6,6 +6,20 @@
   <p><em>A user-friendly GUI application for merging multiple comic book archives (CBZ/CBR) into a single CBZ file with a custom cover image.</em></p>
 </div>
 
+---
+
+## 🗂️ Why Comic Binder?
+
+If you're a digital comic collector, you've probably found yourself juggling scattered `.cbz` or `.cbr` files — separate issues, tie-ins, minis, or collected events split across folders. **Comic Binder** helps you organize your collection more like a bookshelf:
+
+- 📚 Group a miniseries into a single digital volume.
+- 🧩 Merge event tie-ins in the proper reading order.
+- 🖼️ Add a proper cover image so your archive looks like a real collected edition.
+
+**In short:** Comic Binder helps you treat your digital comics like a curated library, not a pile of files.
+
+---
+
 ## Features
 
 - 🖼️ Merge multiple CBZ/CBR files into a single CBZ archive
